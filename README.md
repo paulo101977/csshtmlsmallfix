@@ -12,6 +12,7 @@ change the position absolute of the div for "fixed"
 
 Example:
 
+```
 .custom-div-full-screen-mobile-small-size
 {
     position:fixed;
@@ -25,3 +26,4 @@ Example:
     height: 100%;
     background:rgba(255,255,255,0.5);
 }
+```
