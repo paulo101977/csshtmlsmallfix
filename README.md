@@ -1,6 +1,6 @@
-# csshtmlsmallfix
+# CSS HTML Small fix tutorial
 
-#how Fix div size in small screens/mobile
+## 1 - how Fix div size in small screens/mobile
 
 The fix is in stackoverflow link:
 
