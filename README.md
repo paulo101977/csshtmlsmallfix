@@ -9,3 +9,19 @@ http://stackoverflow.com/questions/18588835/allow-a-div-to-cover-the-whole-page-
 Step:
 
 change the position absolute of the div for "fixed"
+
+Example:
+
+.custom-div-full-screen-mobile-small-size
+{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(255,255,255,0.5);
+}
