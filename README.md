@@ -6,11 +6,11 @@ The fix is in stackoverflow link:
 
 http://stackoverflow.com/questions/18588835/allow-a-div-to-cover-the-whole-page-instead-of-the-area-within-the-container
 
-Step:
+**Step:**
 
 change the position absolute of the div for "fixed"
 
-Example:
+**Example:**
 
 ```
 .custom-div-full-screen-mobile-small-size
