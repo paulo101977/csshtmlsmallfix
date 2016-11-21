@@ -27,3 +27,19 @@ change the position absolute of the div for "fixed"
     background:rgba(255,255,255,0.5);
 }
 ```
+
+### 2 - How Fix div vertical align (too work in bootstrap)
+
+**Step:**
+
+The fix is in stackoverflow link:
+http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
+
+put the class in both div to align:
+
+```
+.inline{
+    display: flex;
+    align-items: center;
+}
+```
