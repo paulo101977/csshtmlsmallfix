@@ -43,3 +43,19 @@ put the class in both div to align:
     align-items: center;
 }
 ```
+### 3 - Horizontal align div (too work in bootstrap)
+
+**Step:**
+
+The fix is in stackoverflow link:
+http://stackoverflow.com/questions/7745232/align-images-to-right-in-a-div
+
+put the class in both div to align:
+
+```
+.item{
+    width : 100%;
+    float:right;
+    clear:right;
+}
+```
