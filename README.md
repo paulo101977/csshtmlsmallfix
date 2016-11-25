@@ -59,3 +59,23 @@ put the class in both div to align:
     clear:right;
 }
 ```
+
+### 4 - Perfect align div vertical (too work in bootstrap)
+
+**Step:**
+
+The fix is link:
+https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
+
+put the class in both div to align:
+
+```
+.start, .telephone{
+    display: flex;
+    -webkit-flex-direction: column; /* Safari */
+    flex-direction:         column;
+    flex-wrap: nowrap;
+    text-align: left;
+    justify-content: center;
+}
+```
