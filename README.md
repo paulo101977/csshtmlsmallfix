@@ -79,3 +79,10 @@ put the class in both div to align:
     justify-content: center;
 }
 ```
+
+### 5 - Prevent two scroll propagate
+
+**Step:**
+
+The fix is link:
+http://stackoverflow.com/questions/5802467/prevent-scrolling-of-parent-element
