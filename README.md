@@ -86,3 +86,10 @@ put the class in both div to align:
 
 The fix is link:
 http://stackoverflow.com/questions/5802467/prevent-scrolling-of-parent-element
+
+
+### 6 - Scroll horizontal and vertical with wheel
+
+this use the jquery.mousewheel.min.js:
+
+https://css-tricks.com/snippets/jquery/horz-scroll-with-mouse-wheel/
