@@ -104,3 +104,17 @@ $("#tabs").css("cssText", "height: 650px !important;");
 
 Stackoverflow: http://stackoverflow.com/questions/1986182/how-to-include-important-in-jquery
 
+### 8 - Center img verticaly and float 
+
+Fix:
+
+```
+/* help center float content */
+.img_container_help{
+    height: 100%;
+    text-align: right;
+    margin-left: auto;
+    float: right;
+    clear: right;
+}
+```
