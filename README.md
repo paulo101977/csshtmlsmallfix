@@ -93,3 +93,14 @@ http://stackoverflow.com/questions/5802467/prevent-scrolling-of-parent-element
 this use the jquery.mousewheel.min.js:
 
 https://css-tricks.com/snippets/jquery/horz-scroll-with-mouse-wheel/
+
+### 7 - Jquery how add !important to css
+
+Fix: 
+
+```
+$("#tabs").css("cssText", "height: 650px !important;");
+```
+
+Stackoverflow: http://stackoverflow.com/questions/1986182/how-to-include-important-in-jquery
+
