@@ -158,3 +158,6 @@ css
 
 ### 10 - Jquery drag page
 https://codepen.io/JTParrett/pen/uzGvy
+
+### 11 - Jquery mobile tap and other events
+http://www.w3schools.com/jquerymobile/jquerymobile_events_touch.asp
