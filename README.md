@@ -118,3 +118,20 @@ Fix:
     clear: right;
 }
 ```
+
+### 9 - Center with display table
+
+Link: http://vanseodesign.com/css/vertical-centering/
+
+```
+<div id="parent">
+    <div id="child">Content here</div>
+</div>
+
+css
+#parent {display: table;}
+
+#child {
+    display: table-cell;
+    vertical-align: middle;
+}
