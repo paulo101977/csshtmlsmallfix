@@ -154,7 +154,7 @@ css
     width: 50%;
     margin: -15% 0 0 -25%;
 }
-
+```
 
 ### 10 - Jquery drag page
 https://codepen.io/JTParrett/pen/uzGvy
