@@ -175,7 +175,7 @@ Credits: http://stackoverflow.com/questions/3514784/what-is-the-best-way-to-dete
  
  font: http://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android
  
- 
+ ```
  /* test swipe event in android and other mobile devices */
 $(getStringQueryToSwipe()).on('touchstart', function(evt){
     xDown = evt.originalEvent.touches[0].pageX;                                    
