@@ -169,4 +169,53 @@ Credits: http://stackoverflow.com/questions/3514784/what-is-the-best-way-to-dete
 ```
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
      // some code..
+    }
+    ```
+ ### 13 - Polyfill to mobile swipe
+ 
+ font: http://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android
+ 
+ 
+ /* test swipe event in android and other mobile devices */
+$(getStringQueryToSwipe()).on('touchstart', function(evt){
+    xDown = evt.originalEvent.touches[0].pageX;                                    
+    yDown = evt.originalEvent.touches[0].pageY;
+})  
+
+//document.addEventListener('touchmove', function(){console.log('touch move')}, false);
+
+document.addEventListener('touchmove', function(evt){
+    //console.dir('inside touchmove')
+    if ( ! xDown || ! yDown ) {
+        return;
     }
+
+    console.dir('inside touchmove return')
+
+    var xUp = evt.touches[0].clientX;                                    
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = xDown - xUp;
+    var yDiff = yDown - yUp;
+
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+        if ( xDiff > 0 ) {
+            /* left swipe */
+            console.log('swipe left')
+        } else {
+            /* right swipe */
+            console.log('swipe right')
+        }                       
+    } else {
+        if ( yDiff > 0 ) {
+            /* up swipe */ 
+        } else { 
+            /* down swipe */
+        }                                                                 
+    }
+    /* reset values */
+    xDown = null;
+    yDown = null; 
+}, false);                                   
+/* end test */
+ ```
