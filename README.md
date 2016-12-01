@@ -170,7 +170,7 @@ Credits: http://stackoverflow.com/questions/3514784/what-is-the-best-way-to-dete
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
      // some code..
     }
-    ```
+```
  ### 13 - Polyfill to mobile swipe
  
  font: http://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android
