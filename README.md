@@ -219,3 +219,9 @@ document.addEventListener('touchmove', function(evt){
 }, false);                                   
 /* end test */
  ```
+### 14 - Setup compabilty mode with old internet explorer, edge and html5 features
+
+Link: https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx
+```
+<meta http-equiv="x-ua-compatible" content="IE=edge" >
+```
