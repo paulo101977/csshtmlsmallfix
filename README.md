@@ -225,3 +225,7 @@ Link: https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx
 ```
 <meta http-equiv="x-ua-compatible" content="IE=edge" >
 ```
+
+### 15 - A complete flex guide:
+
+LINK: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
