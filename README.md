@@ -229,3 +229,39 @@ Link: https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx
 ### 15 - A complete flex guide:
 
 LINK: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+### 16 - Change scroll bar appearance
+
+```
+::-webkit-scrollbar
+{
+    display: block !important;
+    height: 100px;
+    width: 5px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    height: 50px;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+```
+
+### 17 - Custom scrollbar appearance with Jquery Plugin:
+
+LINK: http://manos.malihu.gr/jquery-custom-content-scroller/
+
+Code example:
+
+```
+<script>
+    (function($){
+        $(window).on("load",function(){
+            $(".content").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
+```
