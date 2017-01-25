@@ -1,4 +1,4 @@
-# CSS HTML Small fix tutorial
+# CSS HTML Small fix tutorial and Javascript/NPM tips
 
 ## 1 - how Fix div size in small screens/mobile
 
@@ -265,3 +265,21 @@ Code example:
     })(jQuery);
 </script>
 ```
+### 18 - Pass argument to script via npm start/run
+
+Code:
+```
+/* Require yargs and pass args how this:
+
+node ./nonopt.js -x 6.82 -y 3.35
+
+or
+
+npm start -x 6.82 -y 3.35
+
+*/
+#!/usr/bin/env node
+var argv = require('yargs').argv;
+console.log('(%d,%d)', argv.x, argv.y);
+```
+link: https://www.npmjs.com/package/yargs
